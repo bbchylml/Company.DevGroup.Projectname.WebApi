@@ -1,0 +1,17 @@
+C:\Users\Administrator.YJGUANF-PC\source\repos\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.deps.json
+C:\Users\Administrator.YJGUANF-PC\source\repos\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.dll
+C:\Users\Administrator.YJGUANF-PC\source\repos\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.pdb
+C:\Users\Administrator.YJGUANF-PC\source\repos\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.csprojAssemblyReference.cache
+C:\Users\Administrator.YJGUANF-PC\source\repos\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.AssemblyInfoInputs.cache
+C:\Users\Administrator.YJGUANF-PC\source\repos\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.AssemblyInfo.cs
+C:\Users\Administrator.YJGUANF-PC\source\repos\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.YJGUANF-PC\source\repos\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.dll
+C:\Users\Administrator.YJGUANF-PC\source\repos\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.pdb
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.deps.json
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.dll
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.pdb
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.AssemblyInfoInputs.cache
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.AssemblyInfo.cs
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.csproj.CoreCompileInputs.cache
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.dll
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Models\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.pdb
