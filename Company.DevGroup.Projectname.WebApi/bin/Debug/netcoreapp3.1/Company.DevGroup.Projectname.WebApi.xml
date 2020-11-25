@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Company.DevGroup.Projectname.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Company.DevGroup.Projectname.WebApi.Controllers.AccountController">
+            <summary>
+            Account
+            </summary>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.AccountController.#ctor(Microsoft.AspNetCore.Identity.UserManager{Company.DevGroup.Projectname.Models.Users},Microsoft.AspNetCore.Identity.SignInManager{Company.DevGroup.Projectname.Models.Users},Company.DevGroup.Projectname.Application.IUserApp,Company.DevGroup.Projectname.Application.IAuthenticationApp,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            AccountController .ctor
+            </summary>
+            <param name="userManager">userManager</param>
+            <param name="signInManager">signInManager</param>
+            <param name="userApp">userApp</param>
+            <param name="authenticationApp">authenticationApp</param>
+            <param name="loggerFactory">loggerFactory</param>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.AccountController.SignInAsync(Company.DevGroup.Projectname.Application.Dtos.LoginRequestDTO)">
+            <summary>
+            SignIn
+            </summary>
+            <remarks>
+            POST /api/v1/Account/SignIn
+            {
+                "Email":"test0001@test.com",
+                "Password":"test001.com"
+            }
+            </remarks>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.AccountController.SignUpAsync(Company.DevGroup.Projectname.Application.Dtos.RegisterDTO)">
+            <summary>
+            SignUp
+            </summary>
+            <remarks>
+            POST /api/v1/Account/SignUp
+            {
+                "Email":"test0001@test.com",
+                "Password":"test001.com"
+            }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="T:Company.DevGroup.Projectname.WebApi.Controllers.AuthenticationController">
+            <summary>
+            api 验证控制器
+            </summary>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.AuthenticationController.RequestToken(Company.DevGroup.Projectname.Application.Dtos.LoginRequestDTO)">
+            <summary>
+            请求AccessToken
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.AuthenticationController.RefreshToken(Company.DevGroup.Projectname.Application.Dtos.RefreshTokenDTO)">
+            <summary>
+            刷新Token
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Company.DevGroup.Projectname.WebApi.Controllers.v1.ValuesController">
+            <summary>
+            Values v1
+            </summary>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.v1.ValuesController.Get">
+            <summary>
+            Get Values
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Company.DevGroup.Projectname.WebApi.Controllers.v2.ValuesController">
+            <summary>
+            Values v2
+            </summary>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.v2.ValuesController.Get">
+            <summary>
+            Get Values
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Company.DevGroup.Projectname.WebApi.Controllers.WeatherForecastController">
+            <summary>
+            WeatherForecast
+            </summary>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{Company.DevGroup.Projectname.WebApi.Controllers.WeatherForecastController})">
+            <summary>
+            WeatherForecast .ctor
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.WeatherForecastController.Get">
+            <summary>
+            Get WeatherForecast list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Company.DevGroup.Projectname.WebApi.Startup">
+            <summary>
+            程序启动类
+            </summary>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:Company.DevGroup.Projectname.WebApi.ViewModels.JsonResponseModel">
+            <summary>
+            JsonResponseModel 
+            </summary>
+        </member>
+        <member name="P:Company.DevGroup.Projectname.WebApi.ViewModels.JsonResponseModel.Msg">
+            <summary>
+            消息 
+            </summary>
+        </member>
+        <member name="P:Company.DevGroup.Projectname.WebApi.ViewModels.JsonResponseModel.Status">
+            <summary>
+            状态 
+            </summary>
+        </member>
+        <member name="T:Company.DevGroup.Projectname.WebApi.ViewModels.JsonResponseModel`1">
+            <summary>
+            JsonResponseModel for Generic Types 
+            </summary>
+            <typeparam name="T"> Type </typeparam>
+        </member>
+        <member name="P:Company.DevGroup.Projectname.WebApi.ViewModels.JsonResponseModel`1.Data">
+            <summary>
+            Data 
+            </summary>
+        </member>
+        <member name="T:Company.DevGroup.Projectname.WebApi.ViewModels.JsonResponseStatus">
+            <summary>
+            JsonResponseStatus 
+            </summary>
+        </member>
+        <member name="F:Company.DevGroup.Projectname.WebApi.ViewModels.JsonResponseStatus.Success">
+            <summary>
+            Success 
+            </summary>
+        </member>
+        <member name="F:Company.DevGroup.Projectname.WebApi.ViewModels.JsonResponseStatus.RequestError">
+            <summary>
+            RequestError 
+            </summary>
+        </member>
+        <member name="F:Company.DevGroup.Projectname.WebApi.ViewModels.JsonResponseStatus.AuthFail">
+            <summary>
+            AuthFail 
+            </summary>
+        </member>
+        <member name="F:Company.DevGroup.Projectname.WebApi.ViewModels.JsonResponseStatus.ProcessFail">
+            <summary>
+            ProcessFail 
+            </summary>
+        </member>
+        <member name="T:Company.DevGroup.Projectname.WebApi.WeatherForecast">
+            <summary>
+            WeatherForecast
+            </summary>
+        </member>
+    </members>
+</doc>
