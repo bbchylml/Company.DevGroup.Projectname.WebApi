@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> add Identity Server4
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
@@ -553,6 +556,7 @@
       "sha512": ""
     }
   }
+<<<<<<< HEAD
 =======
 {
   "runtimeTarget": {
@@ -1109,4 +1113,6 @@
     }
   }
 >>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
+=======
+>>>>>>> add Identity Server4
 }

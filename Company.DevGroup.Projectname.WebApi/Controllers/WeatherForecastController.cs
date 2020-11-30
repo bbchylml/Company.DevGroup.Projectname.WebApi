@@ -1,8 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Company.DevGroup.Projectname.Models;
+>>>>>>> add Identity Server4
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +20,11 @@ namespace Company.DevGroup.Projectname.WebApi.Controllers
     /// <summary>
     /// WeatherForecast
     /// </summary>
+<<<<<<< HEAD
     [ApiVersion("1.0")]
+=======
+    [ApiVersion("1")]
+>>>>>>> add Identity Server4
     [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     [EnableCors("CorsPolicy")]//跨域
@@ -55,6 +66,7 @@ namespace Company.DevGroup.Projectname.WebApi.Controllers
         }
     }
 }
+<<<<<<< HEAD
 =======
 ﻿using System;
 using System.Collections.Generic;
@@ -113,3 +125,5 @@ namespace Company.DevGroup.Projectname.WebApi.Controllers
     }
 }
 >>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
+=======
+>>>>>>> add Identity Server4

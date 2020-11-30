@@ -1,0 +1,12 @@
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Data.deps.json
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Data.dll
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Data.pdb
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.dll
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.pdb
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Data.csprojAssemblyReference.cache
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Data.AssemblyInfoInputs.cache
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Data.AssemblyInfo.cs
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Data.csproj.CoreCompileInputs.cache
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Data.csproj.CopyComplete
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Data.dll
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Data\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Data.pdb

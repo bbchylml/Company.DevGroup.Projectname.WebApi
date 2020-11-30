@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> add Identity Server4
 {
   "format": 1,
   "restore": {
@@ -89,6 +92,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -97,6 +101,16 @@
         "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
         "packagesPath": "D:\\Nuget\\.nuget\\packages",
         "outputPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\obj\\",
+=======
+    "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj",
+        "projectName": "Company.DevGroup.Projectname.Data",
+        "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj",
+        "packagesPath": "D:\\Nuget\\.nuget\\packages",
+        "outputPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\obj\\",
+>>>>>>> add Identity Server4
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -115,6 +129,7 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
+<<<<<<< HEAD
             "projectReferences": {}
           }
         },
@@ -191,6 +206,9 @@
               "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj": {
                 "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj"
               },
+=======
+            "projectReferences": {
+>>>>>>> add Identity Server4
               "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
                 "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj"
               }
@@ -204,6 +222,7 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
@@ -316,12 +335,35 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.6.0, )"
+=======
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.10, )"
+>>>>>>> add Identity Server4
             },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+<<<<<<< HEAD
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -334,6 +376,8 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.6.0, )"
+=======
+>>>>>>> add Identity Server4
             }
           },
           "imports": [
@@ -452,6 +496,12 @@
               "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj": {
                 "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj"
               },
+<<<<<<< HEAD
+=======
+              "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj": {
+                "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj"
+              },
+>>>>>>> add Identity Server4
               "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
                 "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj"
               }
@@ -468,6 +518,21 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+<<<<<<< HEAD
+=======
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "IdentityServer4.Storage": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+>>>>>>> add Identity Server4
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -484,6 +549,31 @@
               "target": "Package",
               "version": "[4.1.1, )"
             },
+<<<<<<< HEAD
+=======
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+>>>>>>> add Identity Server4
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -520,5 +610,8 @@
       }
     }
   }
+<<<<<<< HEAD
 >>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
+=======
+>>>>>>> add Identity Server4
 }

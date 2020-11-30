@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> add Identity Server4
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
@@ -7,6 +10,7 @@
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
+<<<<<<< HEAD
 =======
 {
   "runtimeOptions": {
@@ -17,4 +21,6 @@
     ]
   }
 >>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
+=======
+>>>>>>> add Identity Server4
 }

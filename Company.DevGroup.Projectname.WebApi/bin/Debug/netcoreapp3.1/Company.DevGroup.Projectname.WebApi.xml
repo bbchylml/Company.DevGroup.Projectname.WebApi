@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> add Identity Server4
 <?xml version="1.0"?>
 <doc>
     <assembly>
         <name>Company.DevGroup.Projectname.WebApi</name>
     </assembly>
     <members>
+<<<<<<< HEAD
         <member name="T:Company.DevGroup.Projectname.WebApi.Controllers.AccountController">
             <summary>
             Account
@@ -186,6 +190,48 @@
         <name>Company.DevGroup.Projectname.WebApi</name>
     </assembly>
     <members>
+=======
+        <member name="T:Company.DevGroup.Projectname.WebApi.Configs.IdentityServer4.Config">
+            <summary>
+            IdentityServer 资源配置类
+            </summary>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Configs.IdentityServer4.Config.GetApiResources">
+            <summary>
+            定义API资源
+            </summary>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Configs.IdentityServer4.Config.GetIdentityResources">
+            <summary>
+            定义身份资源
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Configs.IdentityServer4.Config.GetApis">
+            <summary>
+            定义API资源
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Configs.IdentityServer4.Config.GetApiScopes">
+            <summary>
+            GetApiScopes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Configs.IdentityServer4.Config.GetClients">
+            <summary>
+            定义API客户端
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Configs.IdentityServer4.Config.GetUsers">
+            <summary>
+            获取IdentityServer4.Test.TestUser用户，真实场景中TestUser一般使用Asp.NetCore.Identity的用户
+            </summary>
+            <returns></returns>
+        </member>
+>>>>>>> add Identity Server4
         <member name="T:Company.DevGroup.Projectname.WebApi.Controllers.AccountController">
             <summary>
             Account
@@ -231,6 +277,15 @@
             api 验证控制器
             </summary>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.AuthenticationController.#ctor(Company.DevGroup.Projectname.Application.IAuthenticationApp)">
+            <summary>
+            AuthenticationController .ctor
+            </summary>
+            <param name="authApp"></param>
+        </member>
+>>>>>>> add Identity Server4
         <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.AuthenticationController.RequestToken(Company.DevGroup.Projectname.Application.Dtos.LoginRequestDTO)">
             <summary>
             请求AccessToken
@@ -245,6 +300,20 @@
             <param name="request"></param>
             <returns></returns>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="T:Company.DevGroup.Projectname.WebApi.Controllers.TodoController">
+            <summary>
+            待办列表控制器
+            </summary>
+        </member>
+        <member name="M:Company.DevGroup.Projectname.WebApi.Controllers.TodoController.#ctor(Company.DevGroup.Projectname.Data.ApiContext)">
+            <summary>
+            TodoController .ctor
+            </summary>
+            <param name="context"></param>
+        </member>
+>>>>>>> add Identity Server4
         <member name="T:Company.DevGroup.Projectname.WebApi.Controllers.v1.ValuesController">
             <summary>
             Values v1
@@ -284,11 +353,33 @@
             </summary>
             <returns></returns>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="T:Company.DevGroup.Projectname.WebApi.Extensions.SameSiteHandlingExtensions">
+            <summary>
+            SameSiteHandlingExtensions copied from https://devblogs.microsoft.com/aspnet/upcoming-samesite-cookie-changes-in-asp-net-and-asp-net-core/
+            </summary>
+        </member>
+>>>>>>> add Identity Server4
         <member name="T:Company.DevGroup.Projectname.WebApi.Startup">
             <summary>
             程序启动类
             </summary>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="M:Company.DevGroup.Projectname.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Startup .ctor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Company.DevGroup.Projectname.WebApi.Startup.Configuration">
+            <summary>
+            系统配置接口
+            </summary>
+        </member>
+>>>>>>> add Identity Server4
         <member name="M:Company.DevGroup.Projectname.WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
             This method gets called by the runtime. Use this method to add services to the container.
@@ -353,6 +444,7 @@
             ProcessFail 
             </summary>
         </member>
+<<<<<<< HEAD
         <member name="T:Company.DevGroup.Projectname.WebApi.WeatherForecast">
             <summary>
             WeatherForecast
@@ -361,3 +453,7 @@
     </members>
 </doc>
 >>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
+=======
+    </members>
+</doc>
+>>>>>>> add Identity Server4

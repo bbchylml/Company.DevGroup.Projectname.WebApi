@@ -1,13 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> add Identity Server4
 ﻿using Company.DevGroup.Projectname.Application;
 using Company.DevGroup.Projectname.Application.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+<<<<<<< HEAD
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+=======
+>>>>>>> add Identity Server4
 
 namespace Company.DevGroup.Projectname.WebApi.Controllers
 {
@@ -20,6 +26,7 @@ namespace Company.DevGroup.Projectname.WebApi.Controllers
     public class AuthenticationController : ControllerBase
     {
         private readonly IAuthenticationApp _authApp;
+<<<<<<< HEAD
         public AuthenticationController(IAuthenticationApp authApp)
         {
             this._authApp = authApp;
@@ -92,6 +99,12 @@ namespace Company.DevGroup.Projectname.WebApi.Controllers
     public class AuthenticationController : ControllerBase
     {
         private readonly IAuthenticationApp _authApp;
+=======
+        /// <summary>
+        /// AuthenticationController .ctor
+        /// </summary>
+        /// <param name="authApp"></param>
+>>>>>>> add Identity Server4
         public AuthenticationController(IAuthenticationApp authApp)
         {
             this._authApp = authApp;
@@ -142,4 +155,7 @@ namespace Company.DevGroup.Projectname.WebApi.Controllers
         }
     }
 }
+<<<<<<< HEAD
 >>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
+=======
+>>>>>>> add Identity Server4

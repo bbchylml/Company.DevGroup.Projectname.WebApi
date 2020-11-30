@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> add Identity Server4
 ﻿using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using System;
@@ -83,6 +86,7 @@ namespace Company.DevGroup.Projectname.Models.Jwt
         public SigningCredentials SigningCredentials { get; set; }
     }
 }
+<<<<<<< HEAD
 =======
 ﻿using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
@@ -169,3 +173,5 @@ namespace Company.DevGroup.Projectname.Models.Jwt
     }
 }
 >>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
+=======
+>>>>>>> add Identity Server4
