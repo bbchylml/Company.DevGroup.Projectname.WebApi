@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "format": 1,
   "restore": {
@@ -258,4 +259,266 @@
       }
     }
   }
+=======
+{
+  "format": 1,
+  "restore": {
+    "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj",
+        "projectName": "Company.DevGroup.Projectname.Application",
+        "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj",
+        "packagesPath": "D:\\Nuget\\.nuget\\packages",
+        "outputPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator.YJGUANF-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
+                "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
+        "projectName": "Company.DevGroup.Projectname.Models",
+        "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
+        "packagesPath": "D:\\Nuget\\.nuget\\packages",
+        "outputPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator.YJGUANF-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj",
+        "projectName": "Company.DevGroup.Projectname.WebApi",
+        "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj",
+        "packagesPath": "D:\\Nuget\\.nuget\\packages",
+        "outputPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator.YJGUANF-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj": {
+                "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj"
+              },
+              "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
+                "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SwashBuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.1, )"
+            },
+            "WeihanLi.Common": {
+              "target": "Package",
+              "version": "[1.0.39, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+>>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
 }
