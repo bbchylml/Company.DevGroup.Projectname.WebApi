@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "Company.DevGroup.Projectname.UploadService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "UploadService",
+      "applicationUrl": "http://localhost:8001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

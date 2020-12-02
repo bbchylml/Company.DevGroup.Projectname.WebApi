@@ -1,0 +1,39 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/UserService/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
+      "ServiceName": "UserService", //consul 服务中 ServiceA 的名称
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      //"DownstreamScheme": "https",
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "jsonplaceholder.typicode.com",
+      //    "Port": 443
+      //  }
+      //],
+      "UpstreamPathTemplate": "/UploadService/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
+      "ServiceName": "UploadService", //consul 服务中 ServiceB 的名称
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    //"BaseUrl": "https://localhost:5000",
+    "ServiceDiscoveryProvider": { // Consul 服务发现配置
+      "Host": "localhost", // Consul 地址
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}

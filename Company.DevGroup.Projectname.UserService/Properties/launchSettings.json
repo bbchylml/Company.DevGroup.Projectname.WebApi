@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "Company.DevGroup.Projectname.UserService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "UserService",
+      "applicationUrl": "http://localhost:8002",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
