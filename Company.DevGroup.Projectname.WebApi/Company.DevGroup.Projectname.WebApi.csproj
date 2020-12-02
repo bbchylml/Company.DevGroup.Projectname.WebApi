@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> add Identity Server4
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>Company.DevGroup.Projectname.WebApi.Program</StartupObject>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -13,18 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
-=======
     <PackageReference Include="IdentityServer4" Version="4.1.1" />
     <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
     <PackageReference Include="IdentityServer4.Storage" Version="4.1.1" />
->>>>>>> add Identity Server4
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
-<<<<<<< HEAD
-=======
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.10">
       <PrivateAssets>all</PrivateAssets>
@@ -33,7 +25,6 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="3.1.4" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
->>>>>>> add Identity Server4
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="SwashBuckle.AspNetCore" Version="5.4.1" />
     <PackageReference Include="WeihanLi.Common" Version="1.0.39" />
@@ -41,56 +32,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Company.DevGroup.Projectname.Application\Company.DevGroup.Projectname.Application.csproj" />
-<<<<<<< HEAD
-=======
     <ProjectReference Include="..\Company.DevGroup.Projectname.Data\Company.DevGroup.Projectname.Data.csproj" />
->>>>>>> add Identity Server4
     <ProjectReference Include="..\Company.DevGroup.Projectname.Models\Company.DevGroup.Projectname.Models.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="Company.DevGroup.Projectname.WebApi.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-
 </Project>
-<<<<<<< HEAD
-=======
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi.xml</DocumentationFile>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
-    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.5" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="SwashBuckle.AspNetCore" Version="5.4.1" />
-    <PackageReference Include="WeihanLi.Common" Version="1.0.39" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Company.DevGroup.Projectname.Application\Company.DevGroup.Projectname.Application.csproj" />
-    <ProjectReference Include="..\Company.DevGroup.Projectname.Models\Company.DevGroup.Projectname.Models.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Company.DevGroup.Projectname.WebApi.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-
-</Project>
->>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
-=======
->>>>>>> add Identity Server4

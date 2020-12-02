@@ -15,10 +15,10 @@ D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Applica
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.pdb
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.pdb
-D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.csprojAssemblyReference.cache
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.AssemblyInfoInputs.cache
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.AssemblyInfo.cs
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.csproj.CoreCompileInputs.cache
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.csproj.CopyComplete
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.pdb
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.csprojAssemblyReference.cache

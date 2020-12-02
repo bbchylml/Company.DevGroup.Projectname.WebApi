@@ -1,5 +1,4 @@
-﻿using Company.DevGroup.Projectname.Models;
-using IdentityModel;
+﻿using IdentityModel;
 using IdentityServer4.Models;
 using IdentityServer4.Test;
 using System.Collections.Generic;

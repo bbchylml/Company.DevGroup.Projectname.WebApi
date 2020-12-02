@@ -1,75 +1,24 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> add Identity Server4
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-<<<<<<< HEAD
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DevGroup.Projectname.WebApi", "Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi.csproj", "{6E10925C-2147-4726-BD1A-FAAE1F23F09E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DevGroup.Projectname.Models", "Company.DevGroup.Projectname.Models\Company.DevGroup.Projectname.Models.csproj", "{E36E87F2-1DE2-45D9-A9BE-5E2B1481FD96}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DevGroup.Projectname.Application", "Company.DevGroup.Projectname.Application\Company.DevGroup.Projectname.Application.csproj", "{1A994373-91A7-4ED9-BCC9-A9B16CCB728D}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6E10925C-2147-4726-BD1A-FAAE1F23F09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E10925C-2147-4726-BD1A-FAAE1F23F09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E10925C-2147-4726-BD1A-FAAE1F23F09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E10925C-2147-4726-BD1A-FAAE1F23F09E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E36E87F2-1DE2-45D9-A9BE-5E2B1481FD96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E36E87F2-1DE2-45D9-A9BE-5E2B1481FD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E36E87F2-1DE2-45D9-A9BE-5E2B1481FD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E36E87F2-1DE2-45D9-A9BE-5E2B1481FD96}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A994373-91A7-4ED9-BCC9-A9B16CCB728D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A994373-91A7-4ED9-BCC9-A9B16CCB728D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A994373-91A7-4ED9-BCC9-A9B16CCB728D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A994373-91A7-4ED9-BCC9-A9B16CCB728D}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CCD5CE33-0A89-4204-9754-FA33DA48D8EC}
-	EndGlobalSection
-EndGlobal
-=======
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DevGroup.Projectname.WebApi", "Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi.csproj", "{6E10925C-2147-4726-BD1A-FAAE1F23F09E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DevGroup.Projectname.Models", "Company.DevGroup.Projectname.Models\Company.DevGroup.Projectname.Models.csproj", "{E36E87F2-1DE2-45D9-A9BE-5E2B1481FD96}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DevGroup.Projectname.Application", "Company.DevGroup.Projectname.Application\Company.DevGroup.Projectname.Application.csproj", "{1A994373-91A7-4ED9-BCC9-A9B16CCB728D}"
-=======
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.DevGroup.Projectname.WebApi", "Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi.csproj", "{6E10925C-2147-4726-BD1A-FAAE1F23F09E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.DevGroup.Projectname.Models", "Company.DevGroup.Projectname.Models\Company.DevGroup.Projectname.Models.csproj", "{E36E87F2-1DE2-45D9-A9BE-5E2B1481FD96}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.DevGroup.Projectname.Application", "Company.DevGroup.Projectname.Application\Company.DevGroup.Projectname.Application.csproj", "{1A994373-91A7-4ED9-BCC9-A9B16CCB728D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DevGroup.Projectname.Data", "Company.DevGroup.Projectname.Data\Company.DevGroup.Projectname.Data.csproj", "{83373AFB-3559-4D86-8C8A-939D0D3B78D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.DevGroup.Projectname.Data", "Company.DevGroup.Projectname.Data\Company.DevGroup.Projectname.Data.csproj", "{83373AFB-3559-4D86-8C8A-939D0D3B78D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DevGroup.Projectname.IdentityServer4", "Company.DevGroup.Projectname.IdentityServer4\Company.DevGroup.Projectname.IdentityServer4.csproj", "{1484DEDC-7094-4E1D-83F8-38EFA079E0CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.DevGroup.Projectname.IdentityServer4", "Company.DevGroup.Projectname.IdentityServer4\Company.DevGroup.Projectname.IdentityServer4.csproj", "{1484DEDC-7094-4E1D-83F8-38EFA079E0CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DevGroup.Projectname.IdentityServer4.TestApi", "Company.DevGroup.Projectname.IdentityServer4.TestApi\Company.DevGroup.Projectname.IdentityServer4.TestApi.csproj", "{EEA270DA-FD36-4B37-A5D7-93DFB8CDC7AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.DevGroup.Projectname.IdentityServer4.TestApi", "Company.DevGroup.Projectname.IdentityServer4.TestApi\Company.DevGroup.Projectname.IdentityServer4.TestApi.csproj", "{EEA270DA-FD36-4B37-A5D7-93DFB8CDC7AC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7EB60AA-632E-4AFA-ABDB-29B33CF6D24D}"
 	ProjectSection(SolutionItems) = preProject
 		Start IdentityServer4.bat = Start IdentityServer4.bat
 		Start IdentityServer4Test.bat = Start IdentityServer4Test.bat
 	EndProjectSection
->>>>>>> add Identity Server4
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,8 +38,6 @@ Global
 		{1A994373-91A7-4ED9-BCC9-A9B16CCB728D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A994373-91A7-4ED9-BCC9-A9B16CCB728D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A994373-91A7-4ED9-BCC9-A9B16CCB728D}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-=======
 		{83373AFB-3559-4D86-8C8A-939D0D3B78D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{83373AFB-3559-4D86-8C8A-939D0D3B78D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83373AFB-3559-4D86-8C8A-939D0D3B78D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -103,7 +50,6 @@ Global
 		{EEA270DA-FD36-4B37-A5D7-93DFB8CDC7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEA270DA-FD36-4B37-A5D7-93DFB8CDC7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEA270DA-FD36-4B37-A5D7-93DFB8CDC7AC}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> add Identity Server4
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,7 +58,3 @@ Global
 		SolutionGuid = {CCD5CE33-0A89-4204-9754-FA33DA48D8EC}
 	EndGlobalSection
 EndGlobal
-<<<<<<< HEAD
->>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
-=======
->>>>>>> add Identity Server4

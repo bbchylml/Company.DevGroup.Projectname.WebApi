@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> add Identity Server4
 {
   "runtimeOptions": {
     "tfm": "netcoreapp3.1",
@@ -14,21 +10,4 @@
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
     }
   }
-<<<<<<< HEAD
-=======
-{
-  "runtimeOptions": {
-    "tfm": "netcoreapp3.1",
-    "framework": {
-      "name": "Microsoft.AspNetCore.App",
-      "version": "3.1.0"
-    },
-    "configProperties": {
-      "System.GC.Server": true,
-      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
-    }
-  }
->>>>>>> 06de2a93f4a5608de4212ff7aa5b5cc6082aafe6
-=======
->>>>>>> add Identity Server4
 }

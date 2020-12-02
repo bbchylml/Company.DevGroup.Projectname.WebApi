@@ -14,7 +14,6 @@ D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Identit
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.IdentityServer4.TestApi.csprojAssemblyReference.cache
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.IdentityServer4.TestApi.AssemblyInfoInputs.cache
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.IdentityServer4.TestApi.AssemblyInfo.cs
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.IdentityServer4.TestApi.csproj.CoreCompileInputs.cache
@@ -27,3 +26,4 @@ D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Identit
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.IdentityServer4.TestApi.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.IdentityServer4.TestApi.pdb
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.IdentityServer4.TestApi.genruntimeconfig.cache
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.IdentityServer4.TestApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.IdentityServer4.TestApi.csprojAssemblyReference.cache
