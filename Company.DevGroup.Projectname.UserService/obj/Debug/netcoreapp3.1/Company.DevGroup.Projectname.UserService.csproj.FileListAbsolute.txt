@@ -17,4 +17,3 @@ D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.UserSer
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.UserService\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.UserService.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.UserService\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.UserService.pdb
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.UserService\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.UserService.genruntimeconfig.cache
-D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.UserService\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.UserService.csprojAssemblyReference.cache

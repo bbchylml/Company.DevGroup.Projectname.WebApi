@@ -238,6 +238,28 @@
           "lib/netcoreapp3.1/Ocelot.Provider.Consul.dll": {}
         }
       },
+      "Ocelot.Provider.Polly/16.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Ocelot": "16.0.1",
+          "Polly": "7.2.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Ocelot.Provider.Polly.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Ocelot.Provider.Polly.dll": {}
+        }
+      },
+      "Polly/7.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -1729,6 +1751,41 @@
         "lib/netcoreapp3.1/Ocelot.Provider.Consul.dll",
         "ocelot.provider.consul.16.0.1.nupkg.sha512",
         "ocelot.provider.consul.nuspec"
+      ]
+    },
+    "Ocelot.Provider.Polly/16.0.1": {
+      "sha512": "dWRu0ChTejs5EXQ63WofWjeJYFBglhPFyXSJVQePiNeVZmJLf77V/F9BOGWjLnSb2JC0+Nd5nWu0s4JYsI/K7Q==",
+      "type": "package",
+      "path": "ocelot.provider.polly/16.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Ocelot.Provider.Polly.dll",
+        "ocelot.provider.polly.16.0.1.nupkg.sha512",
+        "ocelot.provider.polly.nuspec"
+      ]
+    },
+    "Polly/7.2.0": {
+      "sha512": "fbtSRyqVSd5AS7O4Pm2Mnw7zKKJk7Z3rOfNnKSTfPkTxM8Z1JJFZzzjqLAOTG6AyUkormSWMO2AhdlygF/384Q==",
+      "type": "package",
+      "path": "polly/7.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Polly.dll",
+        "lib/net461/Polly.pdb",
+        "lib/net461/Polly.xml",
+        "lib/net472/Polly.dll",
+        "lib/net472/Polly.pdb",
+        "lib/net472/Polly.xml",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
+        "lib/netstandard2.0/Polly.xml",
+        "polly.7.2.0.nupkg.sha512",
+        "polly.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -5030,7 +5087,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Ocelot >= 16.0.1",
-      "Ocelot.Provider.Consul >= 16.0.1"
+      "Ocelot.Provider.Consul >= 16.0.1",
+      "Ocelot.Provider.Polly >= 16.0.1"
     ]
   },
   "packageFolders": {
@@ -5081,6 +5139,10 @@
             "version": "[16.0.1, )"
           },
           "Ocelot.Provider.Consul": {
+            "target": "Package",
+            "version": "[16.0.1, )"
+          },
+          "Ocelot.Provider.Polly": {
             "target": "Package",
             "version": "[16.0.1, )"
           }

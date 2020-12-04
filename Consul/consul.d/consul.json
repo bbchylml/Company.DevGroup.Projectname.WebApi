@@ -6,9 +6,9 @@
 			"UserServiceWebApi", "Api"
 		],
 		"Address": "127.0.0.1",
-		"Port": 8010,
+		"Port": 8002,
 		"Check": {
-			"HTTP": "http://127.0.0.1:8010/Api/health",
+			"HTTP": "http://127.0.0.1:8002/api/health",
 			"Interval": "10s"
 		}
 	}, {
@@ -18,9 +18,9 @@
 			"UploadServiceWebApi","Api"
 		],
 		"Address": "127.0.0.1",
-		"Port": 8011,
+		"Port": 8001,
 		"Check": [{
-			"HTTP": "http://127.0.0.1:8011/Api/health",
+			"HTTP": "http://127.0.0.1:8001/api/health",
 			"Interval": "10s"
 		}]
 	}]

@@ -20,7 +20,6 @@ D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGate
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\bin\Debug\netcoreapp3.1\Ocelot.Provider.Consul.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard1.3\System.Net.Http.WinHttpHandler.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard1.3\System.Net.Http.WinHttpHandler.dll
-D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.ApiGateway.csprojAssemblyReference.cache
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.ApiGateway.AssemblyInfoInputs.cache
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.ApiGateway.AssemblyInfo.cs
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.ApiGateway.csproj.CoreCompileInputs.cache
@@ -34,3 +33,5 @@ D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGate
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.ApiGateway.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.ApiGateway.pdb
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.ApiGateway.genruntimeconfig.cache
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\bin\Debug\netcoreapp3.1\Ocelot.Provider.Polly.dll
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.ApiGateway\bin\Debug\netcoreapp3.1\Polly.dll

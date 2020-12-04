@@ -1,39 +1,109 @@
 {
-  "ReRoutes": [
+  "Routes": [
     {
-      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamPathTemplate": "/api/upload/{everything}",
       "DownstreamScheme": "http",
-      "UpstreamPathTemplate": "/UserService/{everything}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/upload/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
-      "ServiceName": "UserService", //consul 服务中 ServiceA 的名称
+      "ServiceName": "UploadService", //consul 服务中 UploadService 的名称
       "LoadBalancerOptions": {
         "Type": "LeastConnection"
-      }
+      },
+      "UseServiceDiscovery": true
     },
     {
-      "DownstreamPathTemplate": "/api/{everything}",
+      //下游请求地址模板
+      "DownstreamPathTemplate": "/api/user/{everything}",
+      //请求协议，目前应该是支持http和https
       "DownstreamScheme": "http",
-      //"DownstreamScheme": "https",
-      //"DownstreamHostAndPorts": [
-      //  {
-      //    "Host": "jsonplaceholder.typicode.com",
-      //    "Port": 443
-      //  }
-      //],
-      "UpstreamPathTemplate": "/UploadService/{everything}",
+      //请求路径模板
+      "UpstreamPathTemplate": "/api/user/{everything}",
+      //请求方法数组
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
-      "ServiceName": "UploadService", //consul 服务中 ServiceB 的名称
+      "ServiceName": "UserService", //consul 服务中 UserService 的名称
+      //下游地址和端口，这里配置两个端口8002和8003用于负载均衡，负载均衡已经可以了，
+      //但没有健康检查，当其中一个挂了，负载可能还是会访问这样就会报错，所以我们要加入Consul
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8002
+        },
+        {
+          "Host": "localhost",
+          "Port": 8003
+        }
+      ],
+      //负载均衡配置
+      //RoundRobin(轮询)
+      //LeastConnection(最少连接数)
+      //CookieStickySessions(相同的Sessions或Cookie发往同一个地址)
+      //NoLoadBalancer(不使用负载)
       "LoadBalancerOptions": {
         "Type": "LeastConnection"
+      },
+      //是否启用Consul服务发现
+      "UseServiceDiscovery": true,
+      //缓存
+      "FileCacheOptions": {
+        "TtlSeconds": 15
+      },
+      //限流
+      "RateLimitOptions": {
+        //包含客户端白名单的数组。这意味着该阵列中的客户端将不受速率限制的影响
+        "ClientWhitelist": [],
+        //是否启用端点速率限制
+        "EnableRateLimiting": true,
+        //指定限制所适用的期间，例如1s，5m，1h，1d等。如果在该期间内发出的请求超出限制所允许的数量，则需要等待PeriodTimespan过去，然后再发出其他请求
+        "Period": "1s",
+        //指定可以在一定秒数后重试
+        "PeriodTimespan": 1,
+        //指定客户端在定义的时间内可以发出的最大请求数
+        "Limit": 1
+      },
+      //熔断
+      "QoSOptions": {
+        //允许多少个异常请求
+        "ExceptionsAllowedBeforeBreaking": 3,
+        //熔断的时间，单位为毫秒
+        "DurationOfBreak": 1000,
+        //如果下游请求的处理时间超过多少则自如将请求设置为超时
+        "TimeoutValue": 5000
+      },
+      "HttpHandlerOptions": {
+        //是否开启路由追踪
+        "UseTracing": true
       }
     }
   ],
+  //全局配置
   "GlobalConfiguration": {
-    //"BaseUrl": "https://localhost:5000",
-    "ServiceDiscoveryProvider": { // Consul 服务发现配置
-      "Host": "localhost", // Consul 地址
+    // 网关对外暴露的域名
+    "BaseUrl": "http://localhost:8000",
+    // Consul 服务发现配置
+    "ServiceDiscoveryProvider": {
+      // Consul 地址
+      "Host": "localhost",
+      // Consul 端口
       "Port": 8500,
+      // 由Consul提供服务发现
       "Type": "Consul"
+    },
+    //限流扩展配置
+    "RateLimitOptions": {
+      //指定是否禁用X-Rate-Limit和Retry-After标头
+      "DisableRateLimitHeaders": false,
+      //当请求过载被截断时返回的消息
+      "QuotaExceededMessage": "Oh,Oops!",
+      //当请求过载被截断时返回的http status, 经测试过超过4位的状态码会出现异常
+      "HttpStatusCode": 503,
+      //用来识别客户端的请求头，默认是 ClientId
+      "ClientIdHeader": "ClientId"
     }
   }
 }

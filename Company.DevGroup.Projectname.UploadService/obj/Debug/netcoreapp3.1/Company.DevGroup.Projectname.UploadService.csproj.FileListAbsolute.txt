@@ -17,3 +17,4 @@ D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.UploadS
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.UploadService\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.UploadService.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.UploadService\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.UploadService.pdb
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.UploadService\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.UploadService.genruntimeconfig.cache
+D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.UploadService\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.UploadService.csprojAssemblyReference.cache

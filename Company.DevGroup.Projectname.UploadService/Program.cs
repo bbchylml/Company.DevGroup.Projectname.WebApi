@@ -1,11 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Company.DevGroup.Projectname.UploadService
 {
@@ -20,6 +16,12 @@ namespace Company.DevGroup.Projectname.UploadService
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    var configuration = new ConfigurationBuilder().SetBasePath(Environment.CurrentDirectory)
+                                               .AddJsonFile("appsettings.json")
+                                               .Build();
+
+                    var url = configuration["urls"];
+                    webBuilder.UseUrls(url);
                     webBuilder.UseStartup<Startup>();
                 });
     }

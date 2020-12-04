@@ -3,22 +3,21 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace Company.DevGroup.Projectname.UploadService.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    [Route("api/[controller]")]
+    public class UploadController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<UploadController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public UploadController(ILogger<UploadController> logger)
         {
             _logger = logger;
         }

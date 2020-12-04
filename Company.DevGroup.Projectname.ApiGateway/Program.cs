@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -6,7 +7,7 @@ using Microsoft.Extensions.Hosting;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using Ocelot.Provider.Consul;
-
+using Ocelot.Provider.Polly;
 
 namespace Company.DevGroup.Projectname.ApiGateway
 {
@@ -14,6 +15,12 @@ namespace Company.DevGroup.Projectname.ApiGateway
     {
         public static void Main(string[] args)
         {
+            var configuration = new ConfigurationBuilder().SetBasePath(Environment.CurrentDirectory)
+                                               .AddJsonFile("appsettings.json")
+                                               .Build();
+
+            var url = configuration["urls"];
+
             new WebHostBuilder()
                .UseKestrel()
                .UseContentRoot(Directory.GetCurrentDirectory())
@@ -27,7 +34,8 @@ namespace Company.DevGroup.Projectname.ApiGateway
                        .AddEnvironmentVariables();
                })
                .ConfigureServices(s => {
-                   s.AddOcelot().AddConsul();
+                   //注入Ocelot、Consul到容器
+                   s.AddOcelot().AddConsul().AddPolly();
                })
                .ConfigureLogging((hostingContext, logging) =>
                {
@@ -36,8 +44,10 @@ namespace Company.DevGroup.Projectname.ApiGateway
                .UseIISIntegration()
                .Configure(app =>
                {
+                   //使用Ocelot
                    app.UseOcelot().Wait();
                })
+               .UseUrls(url)
                .Build()
                .Run();
         }
