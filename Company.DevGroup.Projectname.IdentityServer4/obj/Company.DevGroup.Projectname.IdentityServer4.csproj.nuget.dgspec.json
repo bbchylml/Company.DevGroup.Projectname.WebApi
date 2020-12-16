@@ -1,31 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.IdentityServer4\\Company.DevGroup.Projectname.IdentityServer4.csproj": {}
+    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.IdentityServer4\\Company.DevGroup.Projectname.IdentityServer4.csproj": {}
   },
   "projects": {
-    "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.IdentityServer4\\Company.DevGroup.Projectname.IdentityServer4.csproj": {
+    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.IdentityServer4\\Company.DevGroup.Projectname.IdentityServer4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.IdentityServer4\\Company.DevGroup.Projectname.IdentityServer4.csproj",
+        "projectUniqueName": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.IdentityServer4\\Company.DevGroup.Projectname.IdentityServer4.csproj",
         "projectName": "Company.DevGroup.Projectname.IdentityServer4",
-        "projectPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.IdentityServer4\\Company.DevGroup.Projectname.IdentityServer4.csproj",
-        "packagesPath": "D:\\Nuget\\.nuget\\packages",
-        "outputPath": "D:\\g\\c#\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.IdentityServer4\\obj\\",
+        "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.IdentityServer4\\Company.DevGroup.Projectname.IdentityServer4.csproj",
+        "packagesPath": "C:\\Users\\bbchy\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.IdentityServer4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator.YJGUANF-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\bbchy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -66,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

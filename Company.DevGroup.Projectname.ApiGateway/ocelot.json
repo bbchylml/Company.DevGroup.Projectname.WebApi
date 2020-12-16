@@ -1,29 +1,12 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/upload/{everything}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 8001
-        }
-      ],
-      "UpstreamPathTemplate": "/api/upload/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
-      "ServiceName": "UploadService", //consul 服务中 UploadService 的名称
-      "LoadBalancerOptions": {
-        "Type": "LeastConnection"
-      },
-      "UseServiceDiscovery": true
-    },
-    {
       //下游请求地址模板
-      "DownstreamPathTemplate": "/api/user/{everything}",
+      "DownstreamPathTemplate": "/api/user",
       //请求协议，目前应该是支持http和https
       "DownstreamScheme": "http",
       //请求路径模板
-      "UpstreamPathTemplate": "/api/user/{everything}",
+      "UpstreamPathTemplate": "/api/user",
       //请求方法数组
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "ServiceName": "UserService", //consul 服务中 UserService 的名称
@@ -32,11 +15,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 8002
-        },
-        {
-          "Host": "localhost",
-          "Port": 8003
+          "Port": 8001
         }
       ],
       //负载均衡配置
@@ -79,6 +58,23 @@
         //是否开启路由追踪
         "UseTracing": true
       }
+    },
+    {
+      "DownstreamPathTemplate": "/api/upload",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/api/upload",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
+      "ServiceName": "UploadService", //consul 服务中 UploadService 的名称
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "UseServiceDiscovery": true
     }
   ],
   //全局配置
@@ -87,6 +83,7 @@
     "BaseUrl": "http://localhost:8000",
     // Consul 服务发现配置
     "ServiceDiscoveryProvider": {
+      "Scheme": "http",
       // Consul 地址
       "Host": "localhost",
       // Consul 端口

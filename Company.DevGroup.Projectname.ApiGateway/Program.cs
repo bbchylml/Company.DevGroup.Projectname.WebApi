@@ -1,7 +1,6 @@
-using System;
-using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 using Ocelot.DependencyInjection;
@@ -15,41 +14,31 @@ namespace Company.DevGroup.Projectname.ApiGateway
     {
         public static void Main(string[] args)
         {
-            var configuration = new ConfigurationBuilder().SetBasePath(Environment.CurrentDirectory)
-                                               .AddJsonFile("appsettings.json")
-                                               .Build();
-
-            var url = configuration["urls"];
-
-            new WebHostBuilder()
-               .UseKestrel()
-               .UseContentRoot(Directory.GetCurrentDirectory())
-               .ConfigureAppConfiguration((hostingContext, config) =>
-               {
-                   config
-                       .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
-                       .AddJsonFile("appsettings.json", true, true)
-                       .AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", true, true)
-                       .AddJsonFile("ocelot.json")
-                       .AddEnvironmentVariables();
-               })
-               .ConfigureServices(s => {
-                   //注入Ocelot、Consul到容器
-                   s.AddOcelot().AddConsul().AddPolly();
-               })
-               .ConfigureLogging((hostingContext, logging) =>
-               {
-                   //add your logging
-               })
-               .UseIISIntegration()
-               .Configure(app =>
-               {
-                   //使用Ocelot
-                   app.UseOcelot().Wait();
-               })
-               .UseUrls(url)
-               .Build()
-               .Run();
+            CreateHostBuilder(args).Build().Run();
         }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.ConfigureAppConfiguration((hostingContext, config) =>
+                    {
+                        config
+                        .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
+                        .AddJsonFile("ocelot.json", true, true)
+                        .AddEnvironmentVariables();
+                    })
+                    .ConfigureServices(services =>
+                    {
+                        //注入Ocelot、Consul到容器
+                        services.AddOcelot().AddConsul().AddPolly();
+                        services.AddHttpContextAccessor();
+                        services.AddLogging();
+                    })
+                    .Configure(app =>
+                    {
+                        app.UseOcelot().Wait();
+                    });
+                });
     }
 }

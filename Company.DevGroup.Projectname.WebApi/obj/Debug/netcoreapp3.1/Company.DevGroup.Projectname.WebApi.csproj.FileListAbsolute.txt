@@ -161,3 +161,11 @@ D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.pdb
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.genruntimeconfig.cache
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.csprojAssemblyReference.cache
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.csprojAssemblyReference.cache
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.AssemblyInfoInputs.cache
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.AssemblyInfo.cs
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.csproj.CoreCompileInputs.cache
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.dll
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.WebApi\obj\Debug\netcoreapp3.1\Company.DevGroup.Projectname.WebApi.pdb

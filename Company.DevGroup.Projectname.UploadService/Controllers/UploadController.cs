@@ -22,7 +22,7 @@ namespace Company.DevGroup.Projectname.UploadService.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet(template: "")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

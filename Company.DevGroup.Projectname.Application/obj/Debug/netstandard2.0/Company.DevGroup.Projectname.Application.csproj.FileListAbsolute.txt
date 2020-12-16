@@ -22,3 +22,15 @@ D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Applica
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.dll
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.pdb
 D:\g\c#\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.csprojAssemblyReference.cache
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.deps.json
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.dll
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.pdb
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.dll
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\bin\Debug\netstandard2.0\Company.DevGroup.Projectname.Models.pdb
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.csprojAssemblyReference.cache
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.AssemblyInfoInputs.cache
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.AssemblyInfo.cs
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.csproj.CoreCompileInputs.cache
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.csproj.CopyComplete
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.dll
+E:\projects\net\Company.DevGroup.Projectname.WebApi\Company.DevGroup.Projectname.Application\obj\Debug\netstandard2.0\Company.DevGroup.Projectname.Application.pdb

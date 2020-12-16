@@ -22,7 +22,13 @@ namespace Company.DevGroup.Projectname.UserService.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet(template: "Get")]
+        public string GetUser()
+        {
+            return "Order Service";
+        }
+
+        [HttpGet(template: "")]
         public IEnumerable<User> Get()
         {
             var rng = new Random();
