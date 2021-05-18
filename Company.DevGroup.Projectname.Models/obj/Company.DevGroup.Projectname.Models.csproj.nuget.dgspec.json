@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {}
+    "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {}
   },
   "projects": {
-    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
+    "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
+        "projectUniqueName": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
         "projectName": "Company.DevGroup.Projectname.Models",
-        "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
-        "packagesPath": "C:\\Users\\bbchy\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\obj\\",
+        "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bbchy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -73,7 +69,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

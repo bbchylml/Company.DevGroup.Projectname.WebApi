@@ -26,8 +26,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.DevGroup.Projectnam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.DevGroup.Projectname.UploadService", "Company.DevGroup.Projectname.UploadService\Company.DevGroup.Projectname.UploadService.csproj", "{843FB258-9CE5-4DCE-8B11-5AAFC72E0333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiGateway", "WebApiGateway\WebApiGateway.csproj", "{7868CB88-4F53-4949-96D7-878E1344D910}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,10 +68,6 @@ Global
 		{843FB258-9CE5-4DCE-8B11-5AAFC72E0333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{843FB258-9CE5-4DCE-8B11-5AAFC72E0333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{843FB258-9CE5-4DCE-8B11-5AAFC72E0333}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7868CB88-4F53-4949-96D7-878E1344D910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7868CB88-4F53-4949-96D7-878E1344D910}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7868CB88-4F53-4949-96D7-878E1344D910}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7868CB88-4F53-4949-96D7-878E1344D910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj": {}
+    "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj": {}
   },
   "projects": {
-    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj": {
+    "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj",
+        "projectUniqueName": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj",
         "projectName": "Company.DevGroup.Projectname.Application",
-        "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj",
-        "packagesPath": "C:\\Users\\bbchy\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\obj\\",
+        "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bbchy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -32,8 +28,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
-                "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj"
+              "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
+                "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj"
               }
             }
           }
@@ -85,26 +81,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj": {
+    "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj",
+        "projectUniqueName": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj",
         "projectName": "Company.DevGroup.Projectname.Data",
-        "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj",
-        "packagesPath": "C:\\Users\\bbchy\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\obj\\",
+        "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bbchy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -117,8 +109,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
-                "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj"
+              "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
+                "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj"
               }
             }
           }
@@ -168,26 +160,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
+    "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
+        "projectUniqueName": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
         "projectName": "Company.DevGroup.Projectname.Models",
-        "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
-        "packagesPath": "C:\\Users\\bbchy\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\obj\\",
+        "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bbchy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -241,26 +229,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj": {
+    "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj",
+        "projectUniqueName": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj",
         "projectName": "Company.DevGroup.Projectname.WebApi",
-        "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj",
-        "packagesPath": "C:\\Users\\bbchy\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\obj\\",
+        "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.WebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bbchy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -273,14 +257,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj": {
-                "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj"
+              "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj": {
+                "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Application\\Company.DevGroup.Projectname.Application.csproj"
               },
-              "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj": {
-                "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj"
+              "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj": {
+                "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Data\\Company.DevGroup.Projectname.Data.csproj"
               },
-              "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
-                "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj"
+              "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj": {
+                "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.Models\\Company.DevGroup.Projectname.Models.csproj"
               }
             }
           }
@@ -376,7 +360,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

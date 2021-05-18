@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "NVvcJmSj4tGEgdZKzjbJfg0osOhbyWGqKgXqvtGkc8cXx2EBoW8Y+Lv2Ac3sKqWw3qEKEpYtBOvrJrWH4olxLA==",
+  "dgSpecHash": "8JV7PHYNDZOm1iZfMnFQUKxFepFHXFtbCoc2w5+0qDKOPswpRmcAOiKdx36D821f7B0mpGaaGad+aH32iNCAHg==",
   "success": true,
-  "projectFilePath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\Company.DevGroup.Projectname.UserService.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\Company.DevGroup.Projectname.UserService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\identitymodel\\5.1.0\\identitymodel.5.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\identityserver4\\4.1.2\\identityserver4.4.1.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\identityserver4.storage\\4.1.2\\identityserver4.storage.4.1.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.5\\microsoft.aspnetcore.authentication.jwtbearer.3.1.5.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.0\\microsoft.aspnetcore.authentication.openidconnect.3.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.6.0\\microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.identitymodel.logging\\5.6.0\\microsoft.identitymodel.logging.5.6.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.6.0\\microsoft.identitymodel.protocols.5.6.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.6.0\\microsoft.identitymodel.protocols.openidconnect.5.6.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.6.0\\microsoft.identitymodel.tokens.5.6.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.6.0\\system.identitymodel.tokens.jwt.5.6.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.encodings.web\\5.0.1\\system.text.encodings.web.5.0.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

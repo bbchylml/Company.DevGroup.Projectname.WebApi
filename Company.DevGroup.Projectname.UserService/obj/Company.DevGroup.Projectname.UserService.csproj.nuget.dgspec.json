@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\Company.DevGroup.Projectname.UserService.csproj": {}
+    "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\Company.DevGroup.Projectname.UserService.csproj": {}
   },
   "projects": {
-    "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\Company.DevGroup.Projectname.UserService.csproj": {
+    "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\Company.DevGroup.Projectname.UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\Company.DevGroup.Projectname.UserService.csproj",
+        "projectUniqueName": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\Company.DevGroup.Projectname.UserService.csproj",
         "projectName": "Company.DevGroup.Projectname.UserService",
-        "projectPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\Company.DevGroup.Projectname.UserService.csproj",
-        "packagesPath": "C:\\Users\\bbchy\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\obj\\",
+        "projectPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\Company.DevGroup.Projectname.UserService.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UserService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\bbchy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -43,6 +39,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

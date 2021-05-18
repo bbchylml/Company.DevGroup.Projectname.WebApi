@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xaYFOrTF6jKmCX0i0AnUTk3uvpjnpupP0ke/XAJDZKRmhVhlmJTevuSNft5XW+PWut362pz+DjPhiZuND4EQJw==",
+  "dgSpecHash": "TIzlEIWTq6gkjLLx/lL6HYeZrknpytyLT33nMHM2JRx2zBxVmFg2q3AryL2EwtFu0oMLAvvx8fdzUXdoVvQzrg==",
   "success": true,
-  "projectFilePath": "E:\\projects\\net\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UploadService\\Company.DevGroup.Projectname.UploadService.csproj",
+  "projectFilePath": "E:\\Code\\Manufacturing_Operation_MES_SRC\\trunk\\Company.DevGroup.Projectname.WebApi\\Company.DevGroup.Projectname.UploadService\\Company.DevGroup.Projectname.UploadService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

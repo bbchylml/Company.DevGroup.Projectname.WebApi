@@ -3,7 +3,8 @@
     "Company.DevGroup.Projectname.ApiGateway": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:8000",
+      "launchUrl": "index.html",
+      "applicationUrl": "http://localhost:80",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

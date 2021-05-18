@@ -3,7 +3,7 @@
     "Company.DevGroup.Projectname.UserService": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "UserService",
+      "launchUrl": "api/user",
       "applicationUrl": "http://localhost:8001",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
